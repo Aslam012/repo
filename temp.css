@@ -1,0 +1,15 @@
+
+  .btn{
+    margin:50px 50px;
+      color:white;
+        font-size: 20px ;
+          padding: 10px 50px;
+           width: fit-content; 
+           text-align: center; 
+            border-color:gray; 
+            border-radius: 0 25px;
+            background: linear-gradient(to right,#240b36,#c31432); 
+  }
+  .btn:hover{
+    border-radius: 25px 0px;
+  }

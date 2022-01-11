@@ -1,0 +1,22 @@
+
+<!-- <span id="clock"></span> -->
+
+<!DOCTYPE html>
+<html>
+
+<body onload="startTime()">
+
+<h2>JavaScript Clock</h2>
+
+<div style="border: 1px solid black;" id="txt"></div>
+
+<script>
+function startTime(){
+    let Today = new Date()
+    document.getElementById("txt").innerHTML =  Today
+    setTimeout(startTime,1000)
+}
+</script>
+
+</body>
+</html>
